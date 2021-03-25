@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+       
+    <title>Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="contact.php" method="POST">
+        <fieldset>
+                <center>
+        <legend>Hubungi kami</legend>
+        <p>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Isi Nama anda" />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="Masukkan email anda" />
+        </p>
+        <p>
+            <label>Pesan:</label>
+            <input type="text" name="Message" placeholder="Masukkan pesan anda" />
+        </p>
+        <p>
+            
+            <label>
+                </p>
+          
+                <button onclick="submitForm()">Submit</button>
+                
+          </body>
+          <script>
+              submitForm = () => {
+                console.log(document.getElementById('fname').value)
+                console.log(document.getElementById('femail').value)
+                console.log(document.getElementById('fmessage').value)
+                document.write('<li>' + document.getElementById('fname', 'femail', 'fmessage').value)
+              }
+            </script>
+
+        </p>
+    </center>
+        </fieldset>
+    </form>
+</body>
+</html>
